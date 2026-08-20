@@ -482,11 +482,11 @@ advanced:
   # 合起来等于 1
   weight:
     rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
-    hotness: 0.1                      # 热度权重
+    frequency: 0.3                    # 频次权重    频率: 0.3                    # 频次权重
+    hotness: 0.1                      # 热度权重    热度: 0.1                      # 热度权重
 
   # 多账号限制
-  max_accounts_per_channel: 3         # 每个渠道最大账号数量
+  max_accounts_per_channel: 3         # 每个渠道最大账号数量  每个渠道最大账号数量: 3         # 每个渠道最大账号数量
 
   # 以下为内部参数（一般无需修改）
   # 消息分批大小（字节）- 内部配置，请勿修改
@@ -496,5 +496,5 @@ advanced:
     feishu: 30000
     bark: 4000
     slack: 4000
-  batch_send_interval: 3              # 批次发送间隔（秒）
+  batch_send_interval: 3              # 批次发送间隔（秒） batch_send_interval: 3              # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━"
